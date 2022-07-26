@@ -41,28 +41,41 @@
             <option value="18">18</option>
             <option value="20">20</option>
         </select>
-
-        <span class="material-symbols-outlined">
+        
+        <span class="material-symbols-outlined bold">
             format_bold
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined italic">
             format_italic
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined underline">
             format_underlined
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined left alignment">
             format_align_left
         </span>            
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined center alignment">
             format_align_center
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined right alignment">
             format_align_right
         </span>
-        <span class="material-symbols-outlined">
+        <span class="material-symbols-outlined justify alignment">
             format_align_justify
         </span>
+        <div class="color-prop">
+            <span class="material-symbols-outlined">
+                format_color_text
+            </span>
+            <input type="color" class = "font-color-prop">
+        </div>
+        <div class="color-prop">
+            <span class="material-symbols-outlined">
+                format_color_fill
+            </span>
+            <input type="color" class = "BG-color-prop" />
+        </div>
+        
     </div>
     <div class="formula-action-cont">
         <input type="text" readonly class = "address-bar">
@@ -92,5 +105,7 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="./cell-prop.js"></script>
+    <script src="./formula.js"></script>
 </body>
 </html>

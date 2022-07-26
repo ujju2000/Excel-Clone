@@ -34,11 +34,13 @@ body {
     display : flex;
     align-items: center;
     justify-content: flex-start;
+
 }
 .cellprops-actions-cont > *{
     display : inline-block;
     margin-left : 10px;
     cursor : pointer;
+    /* font-size: 30px; */
 }
 
 .cellprops-actions-cont select {
@@ -179,3 +181,25 @@ body {
     cursor : crosshair;
     outline : none;
 }
+
+
+/* color property  */
+.color-prop {
+    position : relative;
+
+}
+.color-prop > input{
+    opacity : 0;
+    position : absolute;
+    top : 0;
+    left : 0;
+    height : 100%;
+    width : 100%;
+}
+
+
+/* .justify {
+    display : none;
+    justify-content: center;
+    align-items: center;
+} */
